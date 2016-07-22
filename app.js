@@ -23,7 +23,7 @@ app.config(function($routeProvider, $locationProvider){
     controller  : 'contactController'
   });
 
-  $locationProvider.html5Mode(true);
+  $locationProvider.html5Mode(false);
 });
 
 
